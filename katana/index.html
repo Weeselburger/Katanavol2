@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>B & B</title>
+</head>
+
+<body>
+
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container ">
+      <a href="#showcase" class="navbar-brand">B & B</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section id="showcase" class=" text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    style="background-color: hsl(0deg 0% 96%)">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Black<span class="text-danger"> Buttler´s</span></h1>
+          <p class="lead my-4">
+            There’s nothing more deceiving than an obvious truth.
+          </p>
+        </div>
+        <img class="img-fluid ms-auto " style="float:right; max-width: 25%" src="images/logo.png" alt=" Logo" />
+      </div>
+
+  </section>
+
+
+  <!-- Boxes -->
+  <section class="p-5 mb-3">
+    <div class="container ">
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="card-title mb-3">Our Team</h3>
+              <p class="card-text">
+                You will find here a Introduction of our Team and its Members. Feel free to take a look.
+              </p>
+              <a href="#Team" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-calendar-check"></i>
+              </div>
+              <h3 class="card-title mb-3">Tasks</h3>
+              <p class="card-text">
+                As the week was packed with alot of new things. You can join us and read more !
+              </p>
+              <a href="#weeklyTasks" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-bookmark-check-fill"></i>
+              </div>
+              <h3 class="card-title mb-3">Achievments</h3>
+              <p class="card-text">
+                You want to know how much we pawned on Codewars!<br><br>
+              </p>
+              <a href="#TeamAchievment" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="card-title mb-3">A Code Snippet</h3>
+              <p class="card-text">
+                Jump directly to one of my Codes.
+                <br><br><br>
+              </p>
+              <a href="#code" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-calendar2-week"></i>
+              </div>
+              <h3 class="card-title mb-3">Jourfix</h3>
+              <p class="card-text">
+                You will find here a deeper look about our progress through the week.
+                <br><br>
+              </p>
+              <a href="#Progress" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+       
+
+      </div>
+    </div>
+  </section>
+
+  <!--Team Photos-->
+  <section id="Team" class="p-5 bg-dark" style="margin:auto">
+    <div class="container">
+      <h2 class="text-center text-white">Our Team</h2>
+      <p class="lead text-center text-white mb-5">
+        Dean & .X.
+      </p>
+      <div class="col-md-6 col-lg-3" style="margin:auto">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="images/Dejan.jpg" class="rounded-circle mb-3 img-fluid"
+              alt="Picture of Dejan im schwarzen Hemd auf der Yunicon" />
+
+            <h3 class="card-title mb-3">Dean</h3>
+            <p class="card-text">
+            <ul>
+              <li>Age: 34</li>
+              <li>Pets: Turtle</li>
+              <li>Hobbies: Traveling</li>
+            </ul>
+            </p>
+            <a href="#Dejan"><i class="btn btn-secondary text-dark mx-1">Go to Profile</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--Dejan-->
+  <section id="Dejan" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="images/Dejan.jpg" class="img-fluid w-50" id="dejanBoxFoto" alt="Picture of a To Do list" />
+          <ul>
+            <li>Rank: 7</li>
+            <li> Honor: 53</li>
+            <li>Total completed Kata: 7</li>
+          </ul>
+
+        </div>
+        <div class="col-md p-5">
+
+          <h2>Dean</h2>
+          <p class="lead">
+            How i solved the Week
+          </p>
+          <ul>
+            <li>Monday: Conference with the Team, solving some Katas going deeper into CSS Grid & Flex</li>
+            <li>Tuesday: Solving Katas and working on DOM</li>
+            <li>Wednesday: Dom Manipulation and Bootstrap</li>
+            <li>Thursday: Realizing that i am alone & Rearranging my Page</li>
+          </ul>
+          <a href="https://www.codewars.com/users/Weeselburger"><i class="btn btn-secondary text-dark mx-1">Go to
+              Codewars</i></a>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- WEEKLY TASK section -->
+  <section id="weeklyTasks" class="p-5 bg-dark">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="images/todo.png" class="img-fluid w-60" alt="Picture of a To Do list" />
+        </div>
+        <div class="col-md p-5 text-white">
+          <h2>One Week, One Mission, One Project</h2>
+          <p class="lead">
+            Katanas, HTML, CSS and a little bit of DOM Manipulation
+          </p>
+          <p>
+            All team members register on codewars.com and will practice JavaScript katas. Only katas done in the week of
+            the tournament do count. Each team member has a score. This score is the sum of each finished kata / kyu of
+            the kata. The score of the whole team is the sum of all scores of the individual scores / number of team
+            members.
+          </p>
+          <a href="#Progress" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i> Infos about our Progress
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Team Errungenschaften-->
+  <section id="TeamAchievment" class="p-5 bg-light text-dark">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>Team <span class="text-danger">Buttler´s</span></h2>
+          <p class="lead">
+            Team Score
+          </p>
+          <ul>
+            <li>Rank: Undefined</li>
+            <li> Honor: 53 + xXx</li>
+            <li>Total completed Kata: 7 + xXx</li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <img src="images/team.png" class="img-fluid " alt="sebastian michelis in chains" style="max-width: 75%" />
+          <p><em>* Pain tends to heal as time passes, but personally, I don't want time to heal my wounds. You may think
+              you've escaped the pain and forgotten it, but that's nothing more than stagnation. You can't move forward
+              without the pain.</em> </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Code Snippet section -->
+  <section id="code" class="p-5 bg-dark">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="images/code.png" class="img-fluid w-60" alt="Picture of the Code" />
+        </div>
+        <div class="col-md p-5 text-white">
+          <h2>A Code Snippet</h2>
+          <p class="lead">
+            Find The Parity Outlier
+          </p>
+          <p>
+            You are given an array (which will have a length of at least 3, but could be very large) containing integers.
+            The array is either entirely comprised of odd integers or entirely comprised of even integers except for a
+            single integer N. Write a method that takes the array as an argument and returns this "outlier" N.
+          </p>
+          <!-- <div class="form-group">
+            <label for="exampleFormControlTextarea1">Try it! Use , to separate numbers!</label>
+            <textarea class="form-control" id="numbersEntry" rows="3"></textarea>
+          </div>
+          <a href="#Code" id="codeButton" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i> Maybe iĺl get it
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Question Accordion -->
+  <section id="Progress" class="p-5 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center mb-4">How was the Team Week?</h2>
+      <div class="accordion accordion-flush text-dark" id="questions">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-one">
+              Things we had trouble with.
+            </button>
+          </h2>
+          <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Focusing on the Team-Website.<br>
+              Get our focus away from Chapter 3.<br>
+              Team member missing.<br>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-two">
+              What did we learn?
+            </button>
+          </h2>
+          <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Mainly Bootstrap manipulation and Design behavior.<br>
+              Little bit of Html and CSS & a lot of DOM<br>
+              Javascript through Katas.
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-three">
+              Things we would do better next time.
+            </button>
+          </h2>
+          <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Make the Website first like it was advised.<br>
+              Dont spend to long on details.<br>
+              Spend more time on katas.<br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="p-5 bg-white text-dark text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; Pi.D.esign</p>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+</body>
+
+</html>
